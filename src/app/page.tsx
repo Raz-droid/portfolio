@@ -3,6 +3,7 @@ import React from "react";
 import { Mail, Code, Book, Github, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import Image from "next/image";
 
 export default function Home() {
   const projects = [
@@ -114,7 +115,7 @@ export default function Home() {
                 <div className="h-56 bg-gradient-to-br from-purple-100 via-blue-50 to-purple-50 flex items-center justify-center relative overflow-hidden">
                   {/* Added actual image display with backup icon */}
                   {project.image ? (
-                    <img 
+                    <Image
                       src={project.image} 
                       alt={project.title}
                       className="w-full h-full object-cover absolute inset-0" 
