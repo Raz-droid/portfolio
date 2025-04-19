@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Mail, Code, Book, Github, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -58,24 +57,24 @@ export default function Home() {
             </h2>
             <div className="prose prose-lg max-w-none text-gray-600 leading-relaxed space-y-6">
               <p>
-                Hi there! I'm Raz, a passionate and driven software developer
-                with a focus on AI, web development, and machine learning. I
-                specialize in building innovative solutions that bridge the gap
-                between technology and user experience.
+                Hi there! I&apos;m Raz, a passionate and driven software
+                developer with a focus on AI, web development, and machine
+                learning. I specialize in building innovative solutions that
+                bridge the gap between technology and user experience.
               </p>
               <p>
                 With a background in AI studies at Sree Chitra Thirunal College
-                of Engineering, I've honed my skills in developing intelligent
-                systems, from fine-tuning BERT models for resume screening to
-                building scalable web applications using tools like Django and
-                React.
+                of Engineering, I&apos;ve honed my skills in developing
+                intelligent systems, from fine-tuning BERT models for resume
+                screening to building scalable web applications using tools like
+                Django and React.
               </p>
               <p>
                 I thrive on solving complex problems, especially when it
                 involves creating smart, scalable solutions that enhance
-                everyday workflows. Whether it's building dynamic front-end
-                applications or implementing backend architectures, I'm always
-                looking for ways to improve and challenge myself.
+                everyday workflows. Whether it&apos;s building dynamic front-end
+                applications or implementing backend architectures, I&apos;m
+                always looking for ways to improve and challenge myself.
               </p>
             </div>
           </div>
@@ -116,10 +115,10 @@ export default function Home() {
                   {/* Added actual image display with backup icon */}
                   {project.image ? (
                     <Image
-                      src={project.image} 
+                      src={project.image}
                       alt={project.title}
                       fill
-                      className="w-full h-full object-cover absolute inset-0" 
+                      className="w-full h-full object-cover absolute inset-0"
                     />
                   ) : (
                     <Book className="h-16 w-16 text-purple-500 group-hover:scale-110 transition-transform duration-500" />
