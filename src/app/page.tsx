@@ -13,7 +13,7 @@ export default function Home() {
       description:
         "The Resume Analyzer is an AI-powered web application designed to rank and evaluate resumes based on job descriptions. Using a fine-tuned BERT model, the system processes resumes and job descriptions to generate attention scores and rank candidates based on role-specific similarities.",
       // Fixed image path
-      image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
+      image: "",
       github: "https://github.com/username/project-one",
     },
     {
