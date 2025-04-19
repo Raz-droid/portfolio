@@ -118,6 +118,7 @@ export default function Home() {
                     <Image
                       src={project.image} 
                       alt={project.title}
+                      fill
                       className="w-full h-full object-cover absolute inset-0" 
                     />
                   ) : (
