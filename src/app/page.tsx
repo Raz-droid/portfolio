@@ -154,7 +154,7 @@ export default function Home() {
         <section className="max-w-4xl mx-auto">
           <div className="text-center bg-white/80 backdrop-blur-sm rounded-3xl p-12 shadow-xl hover:shadow-2xl transition-all duration-500">
             <h2 className="text-4xl font-semibold mb-8 bg-gradient-to-r from-purple-600 to-blue-500 bg-clip-text text-transparent">
-              Let's Connect
+            Let&apos;s Connect
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               Have a project in mind or just want to chat? Feel free to reach
